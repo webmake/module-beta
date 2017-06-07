@@ -1,0 +1,14 @@
+{
+    "name": "ModuleBeta",
+    "alias": "module_beta",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "ModuleBeta\\Beta\\Providers\\BetaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

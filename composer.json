@@ -1,0 +1,23 @@
+{
+  "name": "ModuleBeta/Beta",
+  "type": "library",
+  "description": "",
+  "require": {
+    "laravel/framework": "^5.4",
+    "nwidart/laravel-modules": "^1.22"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.4",
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "ModuleBeta\\Beta\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  }
+}
